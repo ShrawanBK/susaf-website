@@ -1,0 +1,19 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.nav-link {
+    background: transparent;
+    width: 100%;
+    padding: 8px;
+}
+
+.nav-link-active {
+    background-color: #B3EFFF;
+    width: 100%;
+    color: #045981;
+    padding: 8px;
+    border-radius: 4px;
+}
